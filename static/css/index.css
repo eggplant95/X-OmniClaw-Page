@@ -732,6 +732,42 @@ a:focus {
 }
 
 
+/* Demo showcase (layout aligned with X-OmniClaw README Demos section) */
+.demo-showcase .demo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  table-layout: fixed;
+}
+
+.demo-showcase .demo-table th {
+  background: #f6f8fa;
+  border-bottom: 1px solid #d0d7de;
+  padding: 10px 12px;
+  vertical-align: top;
+  font-weight: 600;
+}
+
+.demo-showcase .demo-table td {
+  padding: 8px 12px;
+  vertical-align: top;
+  border-bottom: 1px solid #eef1f4;
+  word-wrap: break-word;
+}
+
+.demo-showcase .demo-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.demo-showcase video {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  height: auto;
+  background: #000;
+  border-radius: var(--border-radius);
+}
+
 /* Print styles */
 @media print {
   .more-works-container {
