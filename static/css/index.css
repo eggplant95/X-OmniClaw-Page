@@ -732,6 +732,55 @@ a:focus {
 }
 
 
+/* Abstract: one-line summary under title, above figure + body */
+.abstract-main-summary {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--text-secondary, #4b5563);
+  max-width: 48rem;
+  margin: 0.75rem auto 0;
+}
+
+/* Abstract architecture figure (rasterized from PDF) */
+.abstract-architecture-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: var(--background-secondary);
+}
+
+/* Omni pillars (technical report §3–§5) */
+.omni-pillars .omni-pillar.box {
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.omni-pillars .omni-pillar-figure-fullwidth {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.omni-pillars .omni-pillar-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: var(--background-secondary);
+}
+
+.project-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Demo showcase (layout aligned with X-OmniClaw README Demos section) */
 .demo-showcase .demo-table {
   width: 100%;
